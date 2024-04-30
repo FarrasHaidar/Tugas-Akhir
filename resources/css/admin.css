@@ -1,0 +1,58 @@
+.nav-link:hover, .nav-link.active {
+    background-color: rgb(126, 126, 73) !important;
+}
+
+body {
+    background: #bdbcba;
+}
+
+.sidebar {
+    width: 300px;
+    height: 100dvh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    overflow-x: hidden;
+    background-color: #222;
+    color: white;
+    padding: 20px;
+    transition: 0.5s;
+    z-index: 1;
+}
+
+.content {
+    transition: 0.5s;
+    flex: 1;
+    padding: 20px;
+    margin-left: 300px;
+    box-sizing: border-box;
+}
+
+.card {
+    border-radius: 30px;
+    transition: transform 0.3s, box-shadow 0.3s;
+    background-color: rgb(236, 247, 255);
+}
+
+.card-img-top {
+    height: 100px;
+    width: auto;
+    margin-top: 20px;
+}
+
+.hr-view {
+  width: 20%;
+  border-width: 2px;
+  margin: 10px auto;
+  opacity: 0.5;
+  color: #0f399c;
+}
+
+.row {
+    display: flex;
+}
+
+.table {
+    width: 1000px;
+    background: rgb(202, 220, 220);
+}
