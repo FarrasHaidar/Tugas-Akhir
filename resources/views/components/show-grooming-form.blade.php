@@ -27,7 +27,7 @@
         <div class="form-group mb-3">
             <label>Jenis Kelamin</label>
             <input readonly value="{{ $order->service->pet_gender }}" type="text" name="pet_gender"
-                placeholder="Nama Hewan Peliharaan" class="form-control" required>
+                placeholder="Jenis Kelamin" class="form-control" required>
         </div>
 
         <div class="form-group mb-3 align-items-center">
